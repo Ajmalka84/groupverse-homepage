@@ -1,0 +1,11 @@
+/* Custom CSS class to hide scrollbar */
+.hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+  }
+  
+  /* Hide scrollbar for Webkit browsers (e.g., Chrome, Safari) */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
